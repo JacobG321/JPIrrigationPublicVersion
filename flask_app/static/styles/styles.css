@@ -1,0 +1,51 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hidden {
+    display: none;
+}
+
+.card_link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* icons on form */
+.form-floating {
+    position: relative;
+}
+
+.icon {
+    position: absolute;
+    top: calc(50%);
+    left: 1.25rem;
+}
+
+.form-floating label, .form-floating .form-control {
+    left: .5rem;
+    padding-left: 3.5rem;
+}
+
+.icon-textarea {
+    position: absolute;
+    top: 1.8rem;
+    left: 1.25rem;
+}
+
+.error{
+    color:red;
+}
+
+.shadow {
+    box-shadow: 5px 5px 5px rgb(65, 65, 65);
+    position: relative;
+    bottom: 10px;
+}

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- Contact button embed for jobber -->
+    <link rel="stylesheet" media="screen" href="https://d3ey4dbjkt2f6s.cloudfront.net/assets/external/work_request_embed.css" />
+    <!-- Open sans font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/2ff7bbdf29.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{{ url_for('static',filename='/styles/styles.css') }}">
+    <title>Irrigation System Installation | J&P Irrigation and Lawn Services</title>
+
+</head>
+<body>
+    <div class="container">
+        <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-md navbar-light">
+            <a href="/" class="navbar-brand">
+                <img src="{{url_for('static', filename='/img/jp_logo.jpg')}}"alt="J&P logo" width="150" height="50"
+                class="d-inline-block align-top" />
+                <span class="hidden">J&P</span>
+                </a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#toggleMobileMenu"
+                aria-controls="toggleMobileMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="toggleMobileMenu">
+                <ul class="navbar-nav ms-auto text-center">
+                    <li>
+                        <a href="/" class="nav-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="/get_a_quote" class="nav-link">Get a Quote</a>
+                    </li>
+                    <li>
+                        <a href="/about_us" class="nav-link">About Us</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        
+        <div class="our_services text-center mb-4">
+            <h1>Irrigation System Installations</h1>
+        </div>
+        <div class="col-12 col-md-12 col-lg-12">
+            <div class="card">
+                <iframe class="embed-responsive-item" height=500 src="https://www.youtube.com/embed/_hhJi_cd7t4" title="Irrigreen benefits" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+                <div class="card-body">
+                    <h2 class="card-title">Our Process</h2>
+                        <h5>
+                            J&P Irrigation uses <a href="https://www.irrigreen.com/">irrigreen</a> technology. Checkout the benefits of the irrigreen system in the video above!
+                        </h5>
+                            <p class="card-text">
+                                Irrigation installation begins with an easy and free estimate from our irrigation system expert. We will meet with you to discuss the watering necessities for your landscape. Our installation expert will look at every feature of your property such as sunlight, shade, drainage, ground elevation, water pressure, and electrical outputs to make sure that all facets are considered during the design stage. Our installation expert will also discuss your current and future plans for changes to the landscape to ensure your lawn is as malleable as possible for your needs.
+                            </p>
+                            <p>
+                                After working with you to figure out a blueprint and pricing, our team will setup a schedule to begin work. Our experienced installer will use state of the art equipment to ensure we leave little to to no evidence behind!
+                            </p>
+                    <h3 class="text-center">Use the book online button below to setup a free estimate!</h3>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- contact form embed button-->
+        <div class="embed d-flex justify-content-center mt-5 mb-5">
+            <button name="button" type="button" id="work-request-button-4cd84b5f-a068-4ac5-a57a-e70cd45aa3c5" style="display: inline-flex;color:#ffffff;background-color:#7db00e;align-items:center;justify-content:center;min-height:36px;padding:8px 12px;font-family:'Noto Sans',Helvetica,Arial,sans-serif;font-size:14px;font-weight:700;line-height:1;-webkit-font-smoothing:antialiased;-webkit-appearance:none;text-align:center;text-decoration:none;border:1px solid transparent;border-radius:4px;outline:none;cursor:pointer;vertical-align:middle;">Book Online</button>
+        </div>
+
+        <!-- footer section -->
+        <section class="section-subscribe bg-light">
+            <div class="container mb-5">
+                <!-- footer heading -->
+                <div class="row text-center">
+                    <div class="col-12 col-md-12 col-lg-12 mb-4">
+                        <h1 class="heading">
+                            Thank you for visiting us!
+                        </h1>
+                    </div>
+                </div>
+                <!-- footer menu -->
+                <div class="row text-center">
+                    <div class="col-12 col-md-12 col-lg-12 mb-2">
+                        <p class="d-inline">|</p>
+                        <a href="/" class="nav-link d-inline">J&P Irrigation and Lawn Services</a>
+                        <p class="d-inline">|</p>
+                        <a href="/contact" class="nav-link d-inline">Contact</a>
+                        <p class="d-inline">|</p>
+                        <a href="/terms_of_use" class="nav-link d-inline">Terms of Use</a>
+                        <p class="d-inline">|</p>
+                        <a href="/privacy_policy" class="nav-link d-inline">Privacy Policy</a>
+                        <p class="d-inline">|</p>
+                    </div>
+                </div>
+                <!-- copyright -->
+                <div class="rowtext-center">
+                    <div class="col-12 col-md-12 col-lg-12 p-1 text-center">
+                        <p class="heading">
+                            ©2022 by J&P Irrigation and Lawn Services LLC. proudly created by Jacob Gruber
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- jobber button js -->
+    <!-- bootstrpa js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+</body>
+</html>
